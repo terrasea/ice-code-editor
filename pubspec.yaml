@@ -7,10 +7,13 @@ authors:
 - Srdjan Pejic <spejic@gmail.com>
 homepage: https://github.com/eee-c/ice-code-editor
 dependencies:
-  crypto: ">=0.9.0 < 0.10.0"
-  js: ">=0.2.0 <0.2.1"
-  json: ">=0.9.0 < 0.10.0"
-  ctrl_alt_foo: ">=0.3.0 <0.3.1"
-  polymer: {path: /home/chris/repos/dart/dart/pkg/polymer}
+  crypto: any
+  js: any
+  ctrl_alt_foo: any
+  json: any
+  polymer: any
 dev_dependencies:
   scheduled_test: any
+transformers:
+- polymer:
+    entry_points: web/polymer.html
